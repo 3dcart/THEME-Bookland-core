@@ -1,4 +1,4 @@
-# 3dcart Free Theme: bookland-core
+# 3dcart Free Theme: Bookland-core
 
 ## Installation
 
