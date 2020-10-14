@@ -26,7 +26,23 @@ input:focus:-moz-placeholder {
 input:focus::-moz-placeholder {
     color: transparent;
 }
-
+#skip a	
+{	
+position:absolute;	
+left:-10000px;	
+top:auto;	
+width:1px;	
+height:1px;	
+overflow:hidden;	
+color:#000;	
+}	
+ 	
+#skip a:focus	
+{	
+position:static;	
+width:auto;	
+height:auto;	
+}
 body {
   display: flex;
   height: 100%;
@@ -571,7 +587,7 @@ span.freeshipping {
 .product-item .price {
     font-size: 18px;
     font-weight: bold;
-    color: #a6968f;
+    color: #5F524F;
 }
 .product-item .img {
     /*min-height: 304px;*/
@@ -608,11 +624,11 @@ span.freeshipping {
     background-color: #[body_background_color];
     padding: 30px 0;
 }
-.products-section h2 {
+.products-section h2,.products-section h1 {
     margin: 0;
     font-size: 24px;
 }
-.products-section h2 {
+.products-section h2,.products-section h1 {
     font-size: 30px;
     line-height: 1;
     text-transform: capitalize;
@@ -625,11 +641,11 @@ span.freeshipping {
     color: #[headings_color];
     z-index: 1;
 }
-.products-section h2 span {
+.products-section h2 span,.products-section h1 span {
     background: #[body_background_color];
     padding: 0 5px;
 }
-.products-section h2:after {
+.products-section h2:after,.products-section h1:after {
     content: "";
     width: 90%;
     height: 1px;
@@ -756,7 +772,7 @@ span.freeshipping {
         float: none;
         margin: 0 auto;
     }
-    .products-section h2 {
+    .products-section h2,.products-section h1 {
         font-size: 20px;
     }
     .mailist-box h3 {
