@@ -1,15 +1,17 @@
 /*
 ** Bootstrap over-rides
 */
-/* 
-font-family: 'Roboto', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Pacifico', cursive;
- */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Pacifico&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+ .homeCarousel.flexslider .slides img {
+    width: 100%;
+}
 .mailist-box .form-control::placeholder,
 .search-form .form-control::placeholder {
     color: #[footer_text_color];
     opacity: 1;
+}
+.antiCls { 
+    visibility: hidden; 
 }
 .mailinglist-input.form-control:focus,
 .form-control.search-text:focus{
