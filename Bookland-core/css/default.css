@@ -1,11 +1,10 @@
 /*
 ** Bootstrap over-rides
 */
-/* 
-font-family: 'Roboto', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Pacifico', cursive;
- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Pacifico&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+.homeCarousel.flexslider .slides img {
+    width: 100%;
+}
 .mailist-box .form-control::placeholder,
 .search-form .form-control::placeholder {
     color: #000;
@@ -16,6 +15,8 @@ font-family: 'Pacifico', cursive;
     outline: 0;
     box-shadow:none;
     color: #333;
+}.antiCls { 
+    visibility: hidden; 
 }
 input:focus::-webkit-input-placeholder {
     color: transparent;
@@ -378,7 +379,7 @@ ul.extrapages li {
     margin: 0 0 15px;
 }
 ul.extrapages li a {
-    color: #69534f;
+    color: #000;
     font-size: 16px;
 }
 .footer-social {
@@ -430,7 +431,7 @@ ul.extrapages li a {
     background-color: transparent;
     border: 2px solid #69534f;
     max-width: 100%;
-    color: #fff;
+    color: #000;
     float: left;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
@@ -439,7 +440,7 @@ ul.extrapages li a {
 }
 .mailinglist-submit {
     background-color: transparent;
-    color: #fff !important;
+    color: #000 !important;
     border: none;
     float: right;
     padding: 0;
